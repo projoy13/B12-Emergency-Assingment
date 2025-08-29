@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Attach event listeners to call buttons
     document.querySelectorAll('.flex-grow a[href^="tel:"]').forEach(button => {
         const serviceName = button.previousElementSibling.previousElementSibling.innerText;
-        const serviceNumber = button.getAttribute('href').replace('tel:', '');
+        // const serviceNumber = button.getAttribute('href').replace('tel:', '');
         
         button.addEventListener('click', (e) => {
             e.preventDefault(); 
