@@ -1,9 +1,0 @@
-.copy:hover{
-    background-color:gray;
-
-}
-.son-1{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-}
